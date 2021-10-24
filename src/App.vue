@@ -108,13 +108,15 @@ export default {
 #app {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  overflow: hidden;
 }
 
 .fake-cart {
   position: absolute;
   display: block;
   background-color: transparent;
-  right: 60px;
+  right: 40px;
   top: 13px;
   width: 40px;
   height: 40px;
