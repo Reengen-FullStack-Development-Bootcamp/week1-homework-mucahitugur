@@ -1,0 +1,67 @@
+[
+  {
+    "id": "p1",
+    "title": "Pearl Pink",
+    "category": "women",
+    "sizes": [
+      { "size": 36, "inStock": true, "price": 137, "stockCount": 10 },
+      { "size": 37, "inStock": true, "price": 147, "stockCount": 2 },
+      { "size": 38, "inStock": false, "price": 127, "stockCount": 0 },
+      { "size": 39, "inStock": false, "price": 117, "stockCount": 0 },
+      { "size": 40, "inStock": true, "price": 127, "stockCount": 9 },
+      { "size": 41, "inStock": true, "price": 197, "stockCount": 1 }
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur.",
+    "images": ["pink-1.jpeg", "pink-2.jpeg", "pink-3.jpeg", "pink-4.jpeg"],
+    "color": "pink"
+  },
+  {
+    "id": "p2",
+    "title": "Air Presto",
+    "category": "men",
+    "sizes": [
+      { "size": 40, "inStock": true, "price": 131, "stockCount": 8 },
+      { "size": 41, "inStock": true, "price": 142, "stockCount": 10 },
+      { "size": 42, "inStock": true, "price": 123, "stockCount": 10 },
+      { "size": 43, "inStock": false, "price": 147, "stockCount": 0 },
+      { "size": 44, "inStock": true, "price": 105, "stockCount": 10 },
+      { "size": 45, "inStock": false, "price": 117, "stockCount": 0 }
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur.",
+    "images": ["green-1.jpeg", "green-2.png", "green-3.png", "green-4.png"],
+    "color": "green"
+  },
+
+  {
+    "id": "p3",
+    "title": "Kyrie 7",
+    "category": "women",
+    "sizes": [
+      { "size": 36, "inStock": true, "price": 133, "stockCount": 6 },
+      { "size": 37, "inStock": false, "price": 142, "stockCount": 0 },
+      { "size": 38, "inStock": true, "price": 123, "stockCount": 10 },
+      { "size": 39, "inStock": false, "price": 118, "stockCount": 0 },
+      { "size": 40, "inStock": true, "price": 120, "stockCount": 10 },
+      { "size": 41, "inStock": true, "price": 197, "stockCount": 1 }
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur.",
+    "images": ["purple-1.jpeg", "purple-2.png", "purple-3.png", "purple-4.png"],
+    "color": "purple"
+  },
+  {
+    "id": "p4",
+    "title": "Blue Glowwhite",
+    "category": "men",
+    "sizes": [
+      { "size": 40, "inStock": true, "price": 103, "stockCount": 7 },
+      { "size": 41, "inStock": true, "price": 134, "stockCount": 5 },
+      { "size": 42, "inStock": false, "price": 163, "stockCount": 0 },
+      { "size": 43, "inStock": true, "price": 115, "stockCount": 7 },
+      { "size": 44, "inStock": true, "price": 122, "stockCount": 4 },
+      { "size": 45, "inStock": false, "price": 117, "stockCount": 0 }
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur.",
+    "images": ["blue-1.jpeg", "blue-2.jpeg", "blue-3.jpeg", "blue-4.jpeg"],
+    "color": "blue"
+  }
+]

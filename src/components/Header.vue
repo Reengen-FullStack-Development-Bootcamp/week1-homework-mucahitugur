@@ -1,14 +1,16 @@
 <template>
   <div class="nav-header">
     <nav type="dark" class="px-5">
-      <div href="#" title="Don't do it">
+      <!-- LOGO -->
+      <div href="#" title="Just don't do it">
         <img src="../assets/mike-logo.jpeg" alt="mike-logo" />
       </div>
+      <!-- CART ICON -->
       <div class="cart-wrapper">
         <div class="cart-icon-container">
           <b-icon icon="bag" class="cart-icon" />
 
-          <div class="product-count">{{ itemCount }}0</div>
+          <div class="product-count">{{ itemCount }}</div>
         </div>
       </div>
     </nav>
@@ -39,6 +41,7 @@ nav {
 }
 
 img {
+  cursor: pointer;
   width: 70px;
   border-radius: 3px;
 }
@@ -55,6 +58,7 @@ img {
 
 .cart-wrapper:hover {
   background-color: #ebebeb;
+  cursor: pointer;
 }
 .cart-icon-container {
   position: relative;
